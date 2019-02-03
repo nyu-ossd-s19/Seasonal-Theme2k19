@@ -7,7 +7,8 @@ define unique pages differently as mlb.com and mlb.com/scores for example may co
 ### Types of Contributions
 
 There are many ways of improving this repository folks.  As mentioned above:
-> 1. You can improve the code.
+>
+1. You can improve the code.
 2. You can change the definition of unique pages as long it makes sense and you can make code changes correspondingly.
 3. Any bug fixes or unmentioned yet reasonable fixes are welcome. 
 
