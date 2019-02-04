@@ -24,5 +24,5 @@ Generally your code should flow well with existing code but exceptions exist.  I
 The current original version of this Open Source extension is made available under the [MIT License](https://github.com/nyu-ossd-s19/Page-Counter/blob/master/LICENSE).  If you make your own patches and want to upstream, or branch off and fork our code, make sure to make the improvement also compatible with [the MIT License about which you can learn more here](https://opensource.org/licenses/MIT).
 
 ### Getting Help
-If you have any suggestions or need help using the code etc., feel free to reach out.  We will add our emails soon among other possible means of communication.
+If you have any suggestions or need help using the code etc., feel free to reach out.  We will add our emails soon among other possible means of communication such as IRC channels.
 
