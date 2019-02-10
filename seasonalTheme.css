@@ -1,0 +1,15 @@
+html {
+  /*--season : url('seasons/winter.gif');*/
+  --season : url('seasons/summer.gif')
+
+}
+
+
+body {
+    background-image:var(--season);
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
