@@ -7,9 +7,11 @@
 		"theme",
 		"alarms"
 	],
-	"background": {
-		"scripts": ["seasonalTheme.js"]
-	},
+	"content_scripts": [ {
+	 	"js": ["background.js"],
+   		"css": [ "background.css" ],
+   		"matches": [ "<all_urls>" ]
+	} ],
 
 	"description": "tries to display correct season for user.",
 	"homepage_url": "https://github.com/nyu-ossd-s19/Seasonal-Theme"
