@@ -51,8 +51,11 @@ All dates are in Eastern Time.
 
     //switch statements etc. are welcome <CONTRIBUTIONS ARE WELCOME>
     let date = new Date();
+    /* USE FOLLOWING TWO VARIABLES AT LEAST TO DETERMINE EXACT SEASON TRANSITIONS?
+    
     let hour = date.getHours()
     let minute = date.getMinutes();
+    */
     let month = date.getMonth();
     let day = date.getDate();  // get day of month (1-31) of specified date according to local time according to MDN
     if (month  < 3) {
