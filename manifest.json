@@ -7,10 +7,15 @@
 		"theme",
 		"alarms"
 	],
-	"theme": {
+	"background": {
 		"scripts": ["seasonalTheme.js"]
 	},
 
 	"description": "tries to display correct season for user.",
-	"homepage_url": "https://github.com/nyu-ossd-s19/Seasonal-Theme"
+	"homepage_url": "https://github.com/nyu-ossd-s19/Seasonal-Theme",
+	"applications": {
+		"gecko": {
+		  "strict_min_version": "55.0a2"
+		}
+	  }
 }
