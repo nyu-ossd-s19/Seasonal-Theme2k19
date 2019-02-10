@@ -4,7 +4,7 @@ Have you ever had trouble knowing what season you're existing in?  Think no furt
 
 An Open Source extension for Mozilla Firefox that will **change the theme** of your Firefox browser representing the **season** based on the **time of the year**.
 
-At the moment, it seems as though this extension is pretty accurate only for the Northern Hemisphere?  Any contributions are thus welcome.
+At the moment, it seems as though this extension is pretty accurate only for the Northern Hemisphere?  And the start of each season slightly varies every year so maybe after 2019, this extension may need updates.  Any contributions are thus welcome.
 
 ##### Created by Team 5.
 

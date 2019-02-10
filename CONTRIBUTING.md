@@ -8,7 +8,7 @@ find any loopholes regarding timezone as the date in USA and that in another par
 There are many ways of improving this repository folks.  As mentioned above:
 
 > 1. You can improve the code.
-> 2. You can make changes if the seasons don't reflect your time zones as long it makes sense and you can make code changes correspondingly.
+> 2. You can make changes if the seasons don't reflect your time zones as long it makes sense and you can make code changes correspondingly.  You can make changes per year too annually as every special day changes slightly. 
 > 3. Any bug fixes or unmentioned yet reasonable fixes are welcome. 
 
 ### Guidelines
