@@ -56,6 +56,10 @@ All dates are in Eastern Time.
     let hour = date.getHours()
     let minute = date.getMinutes();
     */
+    /*
+      document.documentElement.style.setProperty('--season', url('seasons/winter.gif');
+      line that changes the variable on CSS to display appropriate season
+      */                                           
     let month = date.getMonth();
     let day = date.getDate();  // get day of month (1-31) of specified date according to local time according to MDN
     if (month  < 3) {
