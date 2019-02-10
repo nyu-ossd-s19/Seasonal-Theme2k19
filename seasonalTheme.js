@@ -1,23 +1,23 @@
-const currSeasonTheme = '';
+let currSeasonTheme = '';// bc season will be updated
 
 const seasonalThemes = {
     'winter': {
-        gif: {
+        images: {
             headerURL: 'seasons/winter.gif',
         }
     }, 
     'fall': {
-        gif: {
+        images: {
             headerURL: 'seasons/fall.gif',
         }
     },
     'summer': {
-        gif: {
+        images: {
             headerURL: 'seasons/summer.gif',
         }
     },
     'spring': {
-        gif: {
+        images: {
             headerURL: 'seasons/spring.gif',
         }
     }
@@ -48,11 +48,11 @@ and ends on
 Saturday, December 21
 All dates are in Eastern Time.
     */
-    const date = new Date();
-    const hour = date.getHours()
-    const minute = date.getMinutes();
-    const month = date.getMonth();
-    const day = date.getDate();  // get day of month (1-31) of specified date according to local time according to MDN
+    let date = new Date();
+    let hour = date.getHours()
+    let minute = date.getMinutes();
+    let month = date.getMonth();
+    let day = date.getDate();  // get day of month (1-31) of specified date according to local time according to MDN
     if (month < 3) {
         setSeasonalTheme('winter');
     }
@@ -71,4 +71,4 @@ checkTimeOfYear();
 
 //periodical updates using alarms api
 browser.alarms.onAlarm.addListener(checkTimeOfYear);
-browser.alarms.create('checkTimeOfYear', {periodInMonths: 1});
+browser.alarms.create('checkTimeOfYear', {periodInMonths: 3});
