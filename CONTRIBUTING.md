@@ -1,8 +1,7 @@
-The "Page-Counter" repository has source code for a Mozilla Firefox extension that lets an user know how many unique pages
-visited per browser session.  
+The "Seasonal-Theme" repository has source code for a Mozilla Firefox extension that lets the user know what season it is based on the user's time. 
 
 We welcome any contributions.  They include improving our implementation and improving or chaning the idea.  Perhaps, one can 
-define unique pages differently as mlb.com and mlb.com/scores for example may count as "one."
+find any loopholes regarding timezone as the date in USA and that in another part of the world may result in different seasons.
 
 ### Types of Contributions
 
