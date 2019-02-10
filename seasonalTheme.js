@@ -3,12 +3,12 @@ const dummyTheme = '';
 const themes = {
     'winter': {
         gif: {
-            headerURL: 'winter.gif',
+            headerURL: 'seasons/winter.gif',
         }
     }, 
     'fall': {
         gif: {
-            headerURL: 'fall.gif',
+            headerURL: 'seasons/fall.gif',
         }
     }
 }
