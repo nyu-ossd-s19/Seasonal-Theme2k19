@@ -9,7 +9,7 @@
 	],
 	"content_scripts": [ {
 	 	"js": ["background.js"],
-   		"css": [ "background.css" ],
+   		"css": [ "seasonalTheme.css" ],
    		"matches": [ "<all_urls>" ]
 	} ],
 
