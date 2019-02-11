@@ -8,5 +8,8 @@ At the moment, it seems as though this extension is pretty accurate only for the
 
 ##### Created by Team 5.
 
+P.S.
+Some commits appear to be from the future because we needed to change the dates on our computers to test all cases.
+
 
 
