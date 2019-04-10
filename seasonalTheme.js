@@ -3,22 +3,42 @@ let currSeasonTheme = '';// bc season will be updated
 const seasonalThemes = {
     'winter': {
         images: {
-            headerURL: 'seasons/winter.gif',
+            headerURL: 'empty.jpg',
+            additional_backgrounds: ['seasons/winter.gif']
+        }, 
+        "properties": {
+          "additional_backgrounds_alignment": [ "top" ],
+          "additional_backgrounds_tiling": [ "repeat"  ]
         }
     }, 
     'fall': {
         images: {
-            headerURL: 'seasons/fall.gif',
+            headerURL: 'empty.jpg',
+            additional_backgrounds: ['seasons/fall.gif']
+        },
+         "properties": {
+          "additional_backgrounds_alignment": [ "top" ],
+          "additional_backgrounds_tiling": [ "repeat"  ]
         }
     },
     'summer': {
         images: {
-            headerURL: 'seasons/summer.gif',
+            headerURL: 'empty.jpg',
+            additional_backgrounds: ['seasons/summer.gif']
+        },
+         "properties": {
+          "additional_backgrounds_alignment": [ "top" ],
+          "additional_backgrounds_tiling": [ "repeat"  ]
         }
     },
     'spring': {
         images: {
-            headerURL: 'seasons/spring.gif',
+            headerURL: 'empty.jpg',
+            additional_backgrounds: ['seasons/spring.gif']
+        },
+         "properties": {
+          "additional_backgrounds_alignment": [ "top" ],
+          "additional_backgrounds_tiling": [ "repeat"  ]
         }
     }
 };
