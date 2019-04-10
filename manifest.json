@@ -11,6 +11,10 @@
 		"scripts": ["seasonalTheme.js"]
 	},
 
+	"icons": {
+    	"48": "icon.png"
+ 	 },
+
 	"description": "tries to display correct season for user.",
 	"homepage_url": "https://github.com/nyu-ossd-s19/Seasonal-Theme"
 	
