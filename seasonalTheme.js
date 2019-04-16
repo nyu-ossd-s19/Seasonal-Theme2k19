@@ -78,38 +78,22 @@ All dates are in Eastern Time.
     */
     let month = date.getMonth() + 1;
     let day = date.getDate();  // get day of month (1-31) of specified date according to local time according to MDN
-    if (month  < 3) {
+    let is_winter = (month < 3) || (month == 3 && day < 20) || (month == 12 && day >= 21)
+    let is_spring = (month == 3 && day >= 20) || (month > 3 && month < 6) || (month == 6 && day < 21)
+    let is_summer = (month == 6 && day >= 21) || (month > 6 && month < 9) || (month == 9 && day < 23)
+    let is_fall = (month == 9 && day >= 23) || (month > 9 && month < 12) || (month == 12 && day < 21)
+    
+    if (is_winter) {
         setSeasonalTheme('winter');
-    } else if (month == 3) {
-        if (day < 20) {
-            setSeasonalTheme('winter');
-        } else {
-            setSeasonalTheme('spring');
-        }
-    } else if (month > 3 && month < 6) {
+    } else if (is_spring) {
         setSeasonalTheme('spring');
-    } else if (month == 6) {
-        if (day < 21) {
-            setSeasonalTheme('spring');
-        } else { //add to make it work for exact time etc. <CONTRIBUTION>
-            setSeasonalTheme('summer');
-        }
-    } else if (month > 6 && month < 9) {
+    } else if (is_summer) {
         setSeasonalTheme('summer');
-    } else if (month == 9) {
-        if (day < 23) {
-            setSeasonalTheme('summer');
-        } else {
-            setSeasonalTheme('fall');
-        }
-    } else if (month > 9 && month < 12) {
+    } else if (is_fall) {
         setSeasonalTheme('fall');
-    } else if (month == 12) {
-        if (day < 21) {
-            setSeasonalTheme('fall');
-        } else {
-            setSeasonalTheme('winter');
-        }
+    } else {
+        // Default season
+        setSeasonalTheme('fall');
     }
 }
 
