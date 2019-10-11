@@ -76,7 +76,7 @@ All dates are in Eastern Time.
     let hour = date.getHours()
     let minute = date.getMinutes();
     */
-    let month = date.getMonth();
+    let month = date.getMonth() + 1;
     let day = date.getDate();  // get day of month (1-31) of specified date according to local time according to MDN
     if (month  < 3) {
         setSeasonalTheme('winter');
@@ -95,7 +95,7 @@ All dates are in Eastern Time.
             setSeasonalTheme('summer');
         }
     } else if (month > 6 && month < 9) {
-        setSeasonalTheme('fall');
+        setSeasonalTheme('summer');
     } else if (month == 9) {
         if (day < 23) {
             setSeasonalTheme('summer');
@@ -124,6 +124,4 @@ function setSeasonalTheme(season) {
 // when user applies extension upon new browser session
 checkTimeOfYear();
 
-//periodical updates using alarms api
-browser.alarms.onAlarm.addListener(checkTimeOfYear);
-browser.alarms.create('checkTimeOfYear', {periodInMonths: 3});
+
